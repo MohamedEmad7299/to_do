@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
+import 'package:one_step/layout/ui_components/empty_queue.dart';
 import 'package:one_step/shared/cubit/cubit.dart';
 import 'package:one_step/shared/cubit/states.dart';
 
@@ -16,6 +17,9 @@ class HomeScreen extends StatelessWidget {
   var titleController = TextEditingController();
   var timeController = TextEditingController();
   var dateController = TextEditingController();
+
+
+  List<String> messages = ['There is no new tasks','There is no completed tasks','There is no archived tasks'];
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +41,7 @@ class HomeScreen extends StatelessWidget {
           return Scaffold(
 
             key: scaffoldKey,
-            body: newTasks.isEmpty ? SafeArea(child: Center(child: CircularProgressIndicator())) : SafeArea(
+            body: tasks[cubit.currentIndex].isEmpty ? emptyQueue(messages[cubit.currentIndex]) : SafeArea(
                 child: cubit.screens[cubit.currentIndex]
             ),
             floatingActionButton: FloatingActionButton(

@@ -73,6 +73,7 @@ class AppCubit extends Cubit<AppStates> {
         newTasks = value.where((element) => element['status'] != 'done' && element['status'] != 'archived').toList();
 
       });
+      tasks = [newTasks,doneTasks,archivedTasks];
       emit(AppGetDatabaseState());
     });
   }
@@ -101,5 +102,12 @@ class AppCubit extends Cubit<AppStates> {
     }
 
     emit(AppChangeBottomSheetState());
+  }
+
+  void deleteTask(int id){
+    database.rawDelete('DELETE FROM tasks WHERE id = ?', [id]).then((value) {
+      getData(database);
+      emit(AppDeleteFromDatabaseState());
+    },);
   }
 }
