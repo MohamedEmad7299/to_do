@@ -9,9 +9,9 @@ to-do list app designed to help you stay organized, prioritize tasks, and boost 
 - **Programming Languages**: Dart
 - **State Management**: Bloc Cubit
 
-![Taskaya Screenshot 1](./assets/a.jpg)  
-![Taskaya Screenshot 2](./assets/b.jpg)  
-![Taskaya Screenshot 3](./assets/c.jpg)  
-![Taskaya Screenshot 4](./assets/d.jpg)  
-![Taskaya Screenshot 5](./assets/e.jpg)  
-![Taskaya Screenshot 6](./assets/f.jpg)
+![Page 1](./assets/preview/a.jpg)  
+![Page 2](./assets/preview/b.jpg)  
+![[Page 3](./assets/preview/c.jpg)  
+![[Page 4](./assets/preview/d.jpg)  
+![[Page 5](./assets/preview/e.jpg)  
+![[Page 6](./assets/preview/f.jpg)
