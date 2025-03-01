@@ -54,9 +54,8 @@ class AppCubit extends Cubit<AppStates> {
           .rawInsert(
               'INSERT INTO tasks (title, date, time, status) VALUES ("$title", "$date", "$time", "uncompleted")')
           .then((value) {
-        emit(AppInsertBottomNavBarState());
         getData(database);
-
+        emit(AppInsertBottomNavBarState());
       }).catchError((error) {
         print("Error inserting data: $error");
       });
@@ -64,6 +63,7 @@ class AppCubit extends Cubit<AppStates> {
   }
 
   void getData(database) async {
+
     await database.rawQuery('SELECT * FROM tasks').then((value) {
 
       value.forEach((element) {
