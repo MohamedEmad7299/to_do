@@ -11,7 +11,7 @@ to-do list app designed to help you stay organized, prioritize tasks, and boost 
 
 ![Page 1](./assets/preview/a.jpg)  
 ![Page 2](./assets/preview/b.jpg)  
-![[Page 3](./assets/preview/c.jpg)  
-![[Page 4](./assets/preview/d.jpg)  
-![[Page 5](./assets/preview/e.jpg)  
-![[Page 6](./assets/preview/f.jpg)
+![Page 3](./assets/preview/c.jpg)  
+![Page 4](./assets/preview/d.jpg)  
+![Page 5](./assets/preview/e.jpg)  
+![Page 6](./assets/preview/f.jpg)
