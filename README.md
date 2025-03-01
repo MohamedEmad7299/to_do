@@ -1,16 +1,17 @@
-# one_step
+# 📋 To Do
 
-A new Flutter project.
+to-do list app designed to help you stay organized, prioritize tasks, and boost your productivity. Whether you have simple daily tasks or complex projects.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
 
-A few resources to get you started if this is your first Flutter project:
+- **Programming Languages**: Dart
+- **State Management**: Bloc Cubit
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Taskaya Screenshot 1](./assets/a.jpg)  
+![Taskaya Screenshot 2](./assets/b.jpg)  
+![Taskaya Screenshot 3](./assets/c.jpg)  
+![Taskaya Screenshot 4](./assets/d.jpg)  
+![Taskaya Screenshot 5](./assets/e.jpg)  
+![Taskaya Screenshot 6](./assets/f.jpg)
